@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainWrapper{
+    display: flex;
+}
+.leftSideBarDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #222224;
+    padding: 16px;
+    width: 224px;
+}
+.navContext{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #434343;
+}
+.yellowFrame{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 12px;
+    background: #FAE101;
+}
+.navBarFrame{
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+}
+.whiteText{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.blackText{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.greyText{
+    color: #989898;
+    font-size: 14px;
+}
+
+.HeaderMainDiv{
+    display: flex;
+    padding: 16px 16px;
+    margin-bottom: 32px;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #434343;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #141414;
+}
+.searchBarDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.avatarDiv{
+    display: flex;
+    width: fit-content;
+    gap: 12px;
+    width: 152px;
+    align-items: center;/*es ese vqna?*/
+    justify-content: flex-end;
+}
+.searchBar{
+    display: flex;
+    padding: 8px 10px;
+    max-width: 430px;
+    width: 100%;
+    border-radius: 8px 0px 0px 8px;
+    border: 2px solid #FAE101;
+    background-color: transparent;
+}
+::placeholder{
+    color: #FAE101;
+    font-size: 14px;
+}
+.Icon{
+    width: 24px;
+    height: 24px;
+}
+.searchButton{
+    display: flex;
+    padding: 8px 12px;
+    border-radius: 0px 8px 8px 0px;
+    background: #FAE101;
+}
+.mainContextWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+}
+.firstContainer{
+    display: flex;
+    gap: 260px;
+    padding: 19px 40px;
+    width: 100%;
+    max-width: 1088px;
+    border-radius: 16px;
+    background: #222224;
+}
+h1{
+    color: #FAE101;
+    font-size: 48px;
+    font-weight: 600;
+}
+.TextsDiv{
+    display: flex;
+    flex-direction: column;
+    width: 236px;
+    gap: 8px;
+}
+.bigWhiteText{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+}
+.biggerGreyText{
+    color: #B7B7B7;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+.firstSpan{
+    font-style: italic;
+    font-weight: 600;
+    color: #B7B7B7;
+    font-size: 16px;
+}
+.littleFramesDiv{
+    display: flex;
+    width: 100%;
+    max-width: 1088px;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.middleTextsDiv{
+    display: flex;
+    width: 100%;
+    max-width: 1088px;
+    gap: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.yellowMiniDiv, .greyMiniDIv{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 8px 16px 8px 12px;
+}
+.yellowMiniDiv{
+    border-radius: 24px;
+    background: #FAE101;
+}
+.greyMiniDIv{
+    border-radius: 24px;
+    background: #222224;
+}
+.grinchImg{
+    width: 283px;
+    height: 269px;
+}
+.miniBlackText{
+    font-size: 16px;
+    color: #000;
+
+}
+.miniGrinchImg{
+    width: 32px;
+    height: 32px;
+}
+
+.yellowTextsDiv{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 16px;
+}
+.yellowText{
+    color: #FAE101;
+    font-size: 16px;
+    font-weight: 600;
+}
+.timeDiv{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.timeYellowDiv{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #FAE101;
+}
+.blackDates{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+.whiteDotsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    width: 352px;
+    padding: 16px;
+    background-color: #222224;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+    flex-wrap: wrap;
+}
+.topdDivOfBox{
+    display: flex;
+    gap: 12px;
+
+}
+.boxImg{
+    width: 154px;
+    height: 170px;
+}
+.boxTextsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.starsDiv{
+    display: flex;
+    gap: 2px;
+}
+.price{
+    display: flex;
+    gap: 3px;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+a{
+    text-decoration-line: none;
+}
+.addToCartDivWrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+.blackTextT{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.addtoCart{
+    padding: 16px 30px;
+    border-radius: 4px;
+    background: #FAE101;
+}
+.boxesWrapper{
+    display: flex;
+    width: 100%;
+    max-width: 1088px;
+    margin-bottom: 90px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.Box{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 254px;
+    padding: 16px;
+    background-color: #222224;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+    flex-wrap: wrap;
+}
+.miniTextsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.oneDIv{
+    width: 100%;
+}
+.boxGrinchImg{
+    width: 100%;/*ra undaa?*/
+    height: 170px;
+}
+.greyTextMini{
+    color: #797979;
+    font-size: 14px;
+    font-weight: 400;
+}
